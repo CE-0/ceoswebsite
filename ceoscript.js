@@ -17,5 +17,5 @@ document.getElementById("header").innerHTML = headerArray[getRandomInt(headerArr
 let c = 0;
 
 for (let i = 0; i < jsonProjects.projects.length; i++) {
-	document.getElementsByClassName("projectList")[0].innerHTML = `<h2>${jsonProjects.projects[i].name}</h2> <img src="${jsonProjects.projects[i].image}" width="400" height="400"> <p class="sitetext">${jsonProjects.projects[i].desc}</p> <a href="${jsonProjects.projects[i].link}" target="_blank">Find it here</a>`
+	document.getElementsByClassName("projectList")[0].innerHTML = `<h2>${jsonProjects.projects[i].name}</h2> <img src="${jsonProjects.projects[i].image}" width="400" height="400"> <p class="sitetext">${jsonProjects.projects[i].desc}</p> <a href="${jsonProjects.projects[i].link}" target="_blank">Find it here</a> <hr>`
 }
