@@ -61,3 +61,17 @@ img#home_icon {
 	color: white;
 } 
 
+.projectList h2 {
+	color: #00FF00;
+	font-size: 30px;
+}
+
+.projectList img {
+	width: 40%;
+	height: 40%;
+} 
+
+.projectList a {
+	color: #4AFF00;
+	font-family: "Pixellari";
+}

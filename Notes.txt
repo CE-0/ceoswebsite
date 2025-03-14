@@ -1,0 +1,4 @@
+Fonts: 
+-Conthrax: general text 
+-Crang: headings and titles 
+-Pixellari: other text (e.g. dropdown menus)
