@@ -74,4 +74,20 @@ img#home_icon {
 .projectList a {
 	color: #4AFF00;
 	font-family: "Pixellari";
+} 
+
+.listOLinks {
+	border-style: hidden;
+	justify-content: center;
+}
+
+.listOLinks td {
+	color: #66FF00;
+	font-family: "Conthrax";
+	font-size: "14px";
+	padding: 15px;
+}
+
+.listOLinks p {
+	text-align: center;
 }

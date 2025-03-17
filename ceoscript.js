@@ -28,8 +28,18 @@ function loadList() {
 		break;
 		
 		case "links.html":
-			for (let j = 0; j < jsonLinks.links.length; j++) {
-				document.getElementsByClassName("listOLinks")[0].innerHTML += `<a href="${jsonLinks.links[j].url}" target="_blank"><img src="${jsonLinks.links[j].image}" width="100" height="100"></a> <p class="sitetext">${jsonLinks.links[j].name}</p> <hr>`;
+			for (let j = 0; j < jsonLinks.links.length; j += 2) {
+				document.getElementsByClassName("listOLinks")[0].innerHTML += `<tr>`;
+				let txt = `<td><a href="${jsonLinks.links[j].url}" target="_blank"><img src="${jsonLinks.links[j].image}" width="100" height="100"></a> <p class="sitetext">${jsonLinks.links[j].name}</p></td>`;
+				try {
+					txt += `<td><a href="${jsonLinks.links[j+1].url}" target="_blank"><img src="${jsonLinks.links[j+1].image}" width="100" height="100"></a> <p class="sitetext">${jsonLinks.links[j+1].name}</p></td>`;
+				}
+				catch (err) {
+				} 
+				finally { 
+					document.getElementsByClassName("listOLinks")[0].innerHTML += txt;
+					document.getElementsByClassName("listOLinks")[0].innerHTML += `</tr>`;
+				}
 			} 
 		break;
 	}
