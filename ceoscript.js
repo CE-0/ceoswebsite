@@ -4,7 +4,7 @@ const headerArray = ["Wipe your feet before entering", "Viewer discretion is adv
 					"MESSAGE REDACTED FOR EXPLICIT CONTENT", "If you see all these messages, you'll be rewarded handsomely"]; 
 const blogTxt = '';
 
-const projTxt = '{"projects":[{"name":"Tall Order", "desc":"My first Godot game. Can you catch all the falling ingredients? Just be sure not to get anything rotten in the mix.", "image":"imgs/project_imgs/Tall Order.png", "link":"https://github.com/CE-0/Tall-Order"}]}';
+const projTxt = '{"projects":[{"name":"Tall Order", "desc":"My first Godot game. Can you catch all the falling ingredients? Just be sure not to get anything rotten in the mix.", "image":"imgs/project_imgs/Tall Order.png", "link":"https://github.com/CE-0/Tall-Order", "id":"tall-order"}, {"name":"Grave Danger", "desc":"A submission to the Pixel Game Jam (May 11 - May 20) that I developed in a team. Grow as many plants as you can in this garden that hides a deadly secret.", "image":"imgs/project_imgs/Grave Danger.png", "link":"https://the-shelley.itch.io/grave-danger", "id":"grave-danger"}]}';
 
 const linkTxt = '{"links": [{"name":"Github", "image":"imgs/link_imgs/GitHub logo.jpg", "url":"https://github.com/CE-0"}, {"name":"itch.io", "image":"imgs/link_imgs/Itch-io logo.png", "url":"https://ce-0.itch.io/"}]}'
 
@@ -23,7 +23,7 @@ function loadList() {
 	switch (page) {
 		case "projects.html":
 			for (let i = 0; i < jsonProjects.projects.length; i++) {
-				document.getElementsByClassName("projectList")[0].innerHTML += `<h2>${jsonProjects.projects[i].name}</h2> <img src="${jsonProjects.projects[i].image}" width="400" height="400"> <p class="sitetext">${jsonProjects.projects[i].desc}</p> <a href="${jsonProjects.projects[i].link}" target="_blank">Find it here</a> <hr>`;
+				document.getElementsByClassName("projectList")[0].innerHTML += `<h2 id="${jsonProjects.projects[i].id}">${jsonProjects.projects[i].name}</h2> <img src="${jsonProjects.projects[i].image}" width="400" height="400"> <p class="sitetext">${jsonProjects.projects[i].desc}</p> <a href="${jsonProjects.projects[i].link}" target="_blank">Find it here</a> <hr>`;
 			} 
 		break;
 		
