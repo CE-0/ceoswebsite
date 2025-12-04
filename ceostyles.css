@@ -33,13 +33,13 @@ img#home_icon {
 } 
 
 .sitetext {
-	color: #22FF00;
+	color: #11FF00;
 	font-family: "Conthrax";
 	font-size: "14px";
 } 
 
 .sitetext2 {
-	color: #22FF00;
+	color: #11FF00;
 	font-family: "Pixellari";
 	font-size: "14px";
 } 
@@ -72,7 +72,7 @@ img#home_icon {
 } 
 
 .projectList a {
-	color: #4AFF00;
+	color: #32FF00;
 	font-family: "Pixellari";
 } 
 
@@ -82,7 +82,7 @@ img#home_icon {
 }
 
 .listOLinks td {
-	color: #22FF00;
+	color: #11FF00;
 	font-family: "Conthrax";
 	font-size: "14px";
 	padding: 15px;
@@ -91,4 +91,5 @@ img#home_icon {
 .listOLinks p {
 	text-align: center;
 }
+
 
