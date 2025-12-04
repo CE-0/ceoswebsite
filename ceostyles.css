@@ -18,7 +18,7 @@ body {
 }
 
 h1#sitelogo {
-	color: #66FF00;
+	color: #22FF00;
 	font-family: "Crang";
 	text-align: center;
 	font-size: 50px;
@@ -33,13 +33,13 @@ img#home_icon {
 } 
 
 .sitetext {
-	color: #66FF00;
+	color: #22FF00;
 	font-family: "Conthrax";
 	font-size: "14px";
 } 
 
 .sitetext2 {
-	color: #66FF00;
+	color: #22FF00;
 	font-family: "Pixellari";
 	font-size: "14px";
 } 
@@ -82,7 +82,7 @@ img#home_icon {
 }
 
 .listOLinks td {
-	color: #66FF00;
+	color: #22FF00;
 	font-family: "Conthrax";
 	font-size: "14px";
 	padding: 15px;
@@ -91,3 +91,4 @@ img#home_icon {
 .listOLinks p {
 	text-align: center;
 }
+
