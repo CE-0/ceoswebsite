@@ -6,6 +6,8 @@ const blogTxt = '';
 
 const projTxt = '{"projects":[{"name":"Tall Order", "desc":"My first Godot game. Can you catch all the falling ingredients? Just be sure not to get anything rotten in the mix.", "image":"imgs/project_imgs/Tall Order.png", "link":"https://github.com/CE-0/Tall-Order", "id":"tall-order"}, {"name":"Grave Danger", "desc":"A submission to the Pixel Game Jam (May 11 - May 20) that I developed in a team. Grow as many plants as you can in this garden that hides a deadly secret.", "image":"imgs/project_imgs/Grave Danger.png", "link":"https://the-shelley.itch.io/grave-danger", "id":"grave-danger"}]}';
 
+//const projTxt = '{"projects":[{"name":"Tall Order", "desc":"My first Godot game. Can you catch all the falling ingredients? Just be sure not to get anything rotten in the mix.", "image":"imgs/project_imgs/Tall Order.png", "link":"https://github.com/CE-0/Tall-Order", "id":"tall-order"}, {"name":"Grave Danger", "desc":"A submission to the Pixel Game Jam (May 11 - May 20) that I developed in a team. Grow as many plants as you can in this garden that hides a deadly secret.", "image":"imgs/project_imgs/Grave Danger.png", "link":"https://the-shelley.itch.io/grave-danger", "id":"grave-danger"}]}';
+
 //const linkTxt = '{"links": [{"name":"Github", "image":"imgs/link_imgs/GitHub logo.jpg", "url":"https://github.com/CE-0"}, {"name":"itch.io", "image":"imgs/link_imgs/Itch-io logo.png", "url":"https://ce-0.itch.io/"}, {"name":"Wordpress", "image":"imgs/link_imgs/Wordpress.png", "url":"https://quartertowin.wordpress.com/"}]}';
 
 const jsonProjects = JSON.parse(projTxt); 
@@ -54,6 +56,7 @@ loadList();
 /*if (document.getElementsByClassName("navbar")[0] == null) {
 	document.getElementsByClassName("projectList")[0].innerHTML = `<a href="${jsonLinks.links[i].url}" target="_blank"><img src="${jsonLinks.links[i].image}" width="300" height="300"></a> <p class="sitetext">${jsonLinks.links[i].name}</p> <hr>`;
 }*/
+
 
 
 
