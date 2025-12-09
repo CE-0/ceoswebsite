@@ -51,6 +51,8 @@ function loadList() {
 
 document.getElementById("header").innerHTML = headerArray[getRandomInt(headerArray.length)]; 
 
+document.getElementsByClassName("navbar")[0].innerHTML = "<a href=\"skills.html\">SKILLS</a> &emsp; <a href=\"projects.html\">PROJECTS</a> &emsp; <a href=\"links.html\">CONTACT/LINKS</a> &emsp;";
+
 loadList();
 
 /*if (document.getElementsByClassName("navbar")[0] == null) {
