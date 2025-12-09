@@ -57,7 +57,7 @@ img#home_icon {
 	padding: 14px 16px;
 }
 
-.navbar a.active {
+.navbar a:active {
 	color: white;
 } 
 
