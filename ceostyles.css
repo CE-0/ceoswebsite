@@ -92,4 +92,11 @@ img#home_icon {
 	text-align: center;
 }
 
+.component-container {
+	display: flex;
+	justify-content: center;
+}
 
+ul li {
+	margin-bottom: 20px;
+}
